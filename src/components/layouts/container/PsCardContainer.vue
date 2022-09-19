@@ -1,0 +1,18 @@
+<template>
+<div>
+    <div class="flex items-center justify-between leading-none p-4">
+        <div class="flex items-center no-underline hover:underline text-black">
+            <slot name="cardtitle" />
+        </div>
+    </div>   
+    <hr>
+    <div>
+        <slot name="cardbody" />
+    </div> 
+</div>
+</template>
+<script lang='ts'>
+export default {
+    name : "PsCardContainer"
+}
+</script>

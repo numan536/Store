@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+      <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Admotors Frontend">
+    <meta itemprop="description" content="Welcome from Panacea-Soft !">
+    <meta itemprop="image" content="https://www.products.panacea-soft.co/admotors-fe-dev/img/dashboard_car.1e9e7918.jpg"> -->
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.casacar.xyz/admotors-fe-demo">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Admotors Frontend">
+    <meta property="og:description" content="Welcome from Panacea-Soft !">
+    <meta property="og:image" content="https://www.products.panacea-soft.co/admotors-fe-demo/img/dashboard_car.1e9e7918.jpg"> -->
+
+    <!-- Twitter Meta Tags -->
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <meta name="twitter:title" content="Admotors Frontend">
+    <meta name="twitter:description" content="Welcome from Panacea-Soft !">
+    <meta name="twitter:image" content="https://www.products.panacea-soft.co/admotors-fe-demo/img/dashboard_car.1e9e7918.jpg">
+
+    <!-- Load multiple JavaScript files lazy load use async -->
+  </head>
+
+  <body class="min-h-screen font-defaultFont">
+   
+    <noscript>
+      <strong>We're sorry but this weeksite doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      script('https://apis.google.com/js/api:client.js');
+      script('https://checkout.razorpay.com/v1/checkout.js');
+      script('https://js.stripe.com/v3/');
+
+      function script(url) {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.setAttribute('rel', 'dns-prefetch')
+          s.async = true;
+          s.src = url;
+          var x = document.getElementsByTagName('link')[0];
+          x.appendChild(s);
+      }
+    </script>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossorigin></script>
+  </body>
+</html>
